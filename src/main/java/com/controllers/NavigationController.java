@@ -16,7 +16,7 @@ import com.servicesapi.UsersService;
 @Controller
 public class NavigationController {
 
-	@RequestMapping(value = "/main", method = RequestMethod.POST)
+	@RequestMapping(value = "/main", method = RequestMethod.POST)//rrrrr
     public ModelAndView getPage() {
         ModelAndView view = new ModelAndView("index");
         return view;
