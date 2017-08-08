@@ -12,6 +12,8 @@
 			width: 90%;
 			margin-left: 1%;
 			background-color:#363636;
+			border-radius: 10px;
+			box-shadow: 0 0 10px #fc0;
 			color: #BDB76B	
 		}
 		.buttonMenu{
@@ -19,6 +21,8 @@
 			width: 90%;
 			margin-left: 5px;
 			background-color:#363636;
+			border-radius: 10px;
+			box-shadow: 0 0 10px #fc0;
 			color: #BDB76B
 		
 		}
@@ -31,7 +35,7 @@
 		
 		<div style="border: 1px solid black;height:8%;background-color:#363636">
 			<div style="float: left; height:100%;width:10%;">
-				<p><input type="submit" value="ТЕРМИНАЛЫ" class="button">
+				<p><input type="submit" value="ТЕРМИНАЛЫ " class="button">
 			</div>
 			<div style="float: left; height:100%;width:10%;">
 				<p><input type="submit" value="ОШИБКИ" class="button">
@@ -44,7 +48,7 @@
 			</div>
 			<div style="float: left; height:100%;width:10%;">
 				<form action="main" method="post">
-					<p><input type="submit" value="НА ГЛАВНУЮ" class="button">
+					<p><input type="submit" value="НА ГЛАВНУЮ " class="button">
 				</form>	
 			</div>
 		</div>
@@ -52,7 +56,7 @@
 		
 		
 		
-		<div style="height:87%;background-color:#708090">		
+		<div style="height:87%;background-color:#EEE8AA">		
 				<div style="float: left; height:100%;width:10%;background-color:#363636">
 					<div style="height:10%;">
 						<form action="find" method="post"> 
@@ -63,8 +67,8 @@
 						</form>				
 					</div>			
 				</div>			
-				<div style="float: left; height:100%;width:90%;">	
-					<table cellspacing="1" border="1" cellpadding="1" width=100% style="height: 50px; font-size: 20px; color: #BDB76B">
+				<div style="float: left; height:100%;width:90%;overflow-y:scroll">	
+					<table cellspacing="1" border="1" cellpadding="1" width=100% style="height: 50px; font-size: 16px; color: #000000">
 
 
 				<tr>
