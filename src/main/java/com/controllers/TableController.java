@@ -31,7 +31,7 @@ public class TableController {
 
 	@RequestMapping(value = "/terminals", method = RequestMethod.GET)
     public ModelAndView getPage() {
-        ModelAndView view = new ModelAndView("terminals");
+        ModelAndView view = new ModelAndView("/terminals");
         return view;
     }
 	

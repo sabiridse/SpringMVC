@@ -31,24 +31,26 @@
 </head>
 <body style="color:#B5B5B5;">
 
+		<script src="js/js1.js"></script>
+
 
 		
 		<div style="border: 1px solid black;height:8%;background-color:#363636">
 			<div style="float: left; height:100%;width:10%;">
-				<p><input type="submit" value="ТЕРМИНАЛЫ " class="button">
+				<p><input type="submit" value="   ТЕРМИНАЛЫ    " class="button">
+			</div>
+			<div style="float: left; height:100%;width:10%;">			
+				<p><input type="submit" onclick='submit();' value="   ОШИБКИ   " class="button">
 			</div>
 			<div style="float: left; height:100%;width:10%;">
-				<p><input type="submit" value="ОШИБКИ" class="button">
+				<p><input type="submit" value="   ПОИСК   " class="button">
 			</div>
 			<div style="float: left; height:100%;width:10%;">
-				<p><input type="submit" value="ПОИСК" class="button">
-			</div>
-			<div style="float: left; height:100%;width:10%;">
-				<p><input type="submit" value="ПОИСК" class="button">
+				<p><input type="submit" value="   ПОИСК   " class="button">
 			</div>
 			<div style="float: left; height:100%;width:10%;">
 				<form action="main" method="post">
-					<p><input type="submit" value="НА ГЛАВНУЮ " class="button">
+					<p><input type="submit" value="   НА ГЛАВНУЮ   " class="button">
 				</form>	
 			</div>
 		</div>
@@ -92,7 +94,6 @@
 		</div>
 	<br>
     <br>
-
 
 </body>
 </html>
