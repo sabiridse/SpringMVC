@@ -22,9 +22,11 @@
         <input type="hidden" id="user_id">
         Name: <input type="text" id="name" required="required" name="user_name"><br>
         Email: <input type="email" id="email" required="required" name="email"><br>
-        <button onclick="submit()">Submit</button>
-        <button onClick={react()}>REACT</button>
-        <button onClick={rereact()}>NOREACT</button>
+ 
+	        <button id="but1" onclick="submit()">Submit</button>
+	        <button onClick={react()}>REACT</button>
+	        <button onClick={rereact()}>NOREACT</button>
+     
      
      
  
@@ -45,6 +47,7 @@
     <h2>
         <a href="/SpringMVC/">Возврат на главную</a>
     </h2> -->
+     <div id="test1" >1</div>
      
 </body>
 </html>

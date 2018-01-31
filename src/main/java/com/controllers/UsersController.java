@@ -59,6 +59,11 @@ public class UsersController {
         return map;
     }
  
+    @RequestMapping(value = "/test1", method = RequestMethod.POST)
+    public void test1() {
+       System.out.println("ИИИИИИИИхаа");
+    }
+    
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
     public @ResponseBody Map<String, Object> delete(Users users) {
         Map<String, Object> map = new HashMap<String, Object>();
